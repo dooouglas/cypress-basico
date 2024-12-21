@@ -1,0 +1,6 @@
+{
+    "workbench.editor.customLabels.patterns": {
+        "it": ".only"
+    },
+    "workbench.editor.preferHistoryBasedLanguageDetection": true
+}
