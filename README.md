@@ -1,4 +1,4 @@
-# Curso Cypress Básico
+# Cypress Básico
 
 Sample project for the Cypress basic course of the Talking About Testing online school.
 
