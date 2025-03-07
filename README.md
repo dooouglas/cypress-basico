@@ -6,11 +6,27 @@ Este projeto foi desenvolvido durante o curso **"Testes Automatizados com Cypres
 
 O desafio foi validar todas as funcionalidades da aplicação **CAC TAT** e configurar um pipeline de integração contínua para executar os testes sempre que houvesse alterações no repositório do GitHub. Os testes foram projetados para rodar em diferentes viewports, simulando ambientes desktop e mobile.
 
-## 🖥 Aplicação em Teste
+--------------------------
+
+### Execução dos Testes
+
+💻 **Desktop:**
+
+- Execute `npm test` (ou `npm t` para a versão curta) para rodar os testes no modo headless em uma viewport de desktop.
+- Ou execute `npm run cy:open` para abrir o Cypress no modo interativo em uma viewport de desktop.
+
+📱 **Mobile:**
+
+- Execute `npm run test:mobile` para rodar os testes no modo headless em uma viewport móvel.
+- Ou execute `npm run cy:open:mobile` para abrir o Cypress no modo interativo em uma viewport móvel.
+
+--------------------------
+
+### Aplicação em Teste: CAT TAT
 
 A aplicação **CAC TAT** é um sistema web que simula o envio de mensagens para um centro de atendimento ao cliente. O foco do curso foi a automação dos testes utilizando Cypress e JavaScript, enquanto a interface e funcionalidades já estavam predefinidas.
 
-**Requisitos testados:**
+🔧 **Requisitos testados:**
 
 1️⃣ Campos obrigatórios:
 
@@ -55,34 +71,15 @@ A aplicação **CAC TAT** é um sistema web que simula o envio de mensagens para
 - Implementação de um pipeline de integração contínua.
 - Documentação mínima para um projeto de testes automatizados.
 
---------------------------
-
-**Para rodar os testes simulando os diferentes ambientes:**
-
-💻 **Desktop**
-
-- Execute `npm test` (ou `npm t` para a versão curta) para rodar os testes no modo headless em uma viewport de desktop.
-- Ou execute npm run cy:open para abrir o Cypress no modo interativo em uma viewport de desktop.
-
-📱 **Mobile**
-
-- Execute `npm run test:mobile` para rodar os testes no modo headless em uma viewport móvel.
-- Ou execute `npm run cy:open:mobile` para abrir o Cypress no modo interativo em uma viewport móvel.
-
---------------------------
-
-🛠 **Tecnologias Utilizadas**
+🛠 **Tecnologias e Ferramentas Utilizadas**
 
 - Cypress
 - Node.js (v16.13.2)
 - npm (v8.3.2)
 - JavaScript
-
-🔧 **Ferramentas Utilizadas**
-
-- Visual Studio Code – Editor de código
+- Visual Studio Code
 - Git – Controle de versão
-- Live Server – Extensão para testes em tempo real
+- Live Server
 
 --------------------------
 
